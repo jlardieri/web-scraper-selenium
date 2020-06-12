@@ -1,8 +1,8 @@
 #@author: jordanlardieri
 #this code is for the purpose of demonstration
-##always consult a website's terms of use before scraping or ask for permission
+##always consult a website's terms of use before scraping
 
-#In this case, I was interested in a website that contained information stored in tables across hundreds of pages
+#For this demo, I was interested in a website that contained information stored in tables across hundreds of pages
 #The website was java based so a selenium web crawler was an appropriate solution
 
 #import libraries
@@ -25,7 +25,7 @@ password = driver.find_element_by_id("password")
 username.send_keys("insert_username_here")
 password.send_keys("insert_password_here")
 
-#store scraped data, in this case I'm interested in storing 2 separate lists
+#store scraped data, here I was interested in storing 2 separate lists
 information = []
 information_all = []
 
