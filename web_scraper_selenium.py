@@ -1,9 +1,10 @@
 #@author: jordanlardieri
-#this code is for the purpose of demonstration
+
+#Python web crawler with Selenium
 ##always consult a website's terms of use before scraping
 
-#For this demo, I was interested in a website that contained information stored in tables across hundreds of pages
-#The website was java based so a selenium web crawler was an appropriate solution
+#This use case was a website that contains hundreds of pages of content, the content was stored in table format
+#The website was java based - a selenium web crawler was an appropriate solution
 
 #import libraries
 import pandas as pd
@@ -52,4 +53,4 @@ while True:
 
 driver.quit()
 
-#The output is a list containing each data point from the table as a line item, I did some data cleaning in Python as well as excel to produce the final output
+#The output is a list containing each row from the table as a line item, I did some data cleaning in Python as well as Excel to produce the final output
