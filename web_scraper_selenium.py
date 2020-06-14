@@ -3,14 +3,13 @@
 #Python web crawler with Selenium
 ##always consult a website's terms of use before scraping
 
-#This use case was a website that contains hundreds of pages of content, the content was stored in table format
-#The website was java based - a selenium web crawler was an appropriate solution
+#This use case is a java based website that contains hundreds of pages of content, the content is stored in table format
 
 #import libraries
 import pandas as pd
 from selenium import webdriver
 
-#this will initiate the the website crawl, the webpage will pop up
+#this will initiate the the website crawl - webpage will pop up
 #to note, if get a message that the ChromeDriver is outdated :
 ##check for current Chrome version by going to help -> about in Chrome browser
 ##upgrade driver http://chromedriver.chromium.org/downloads and replace chromedriver
